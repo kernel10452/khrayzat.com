@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { Instagram, TikTok, Heart, Eye, MessageCircle, Users, Coins } from "lucide-react";
+import { Instagram, Heart, Eye, MessageCircle, Users, Coins, Video } from "lucide-react";
 import ServiceCard from "../components/ServiceCard";
 
 const Services = () => {
@@ -72,7 +72,7 @@ const Services = () => {
         {/* TikTok Section */}
         <section className="animate-fade-in" style={{ animationDelay: '1.2s' }}>
           <div className="flex items-center justify-center mb-12">
-            <TikTok className="w-12 h-12 text-red-500 mr-4" />
+            <Video className="w-12 h-12 text-red-500 mr-4" />
             <h2 className="text-4xl md:text-5xl font-bold text-white">TikTok</h2>
           </div>
           
