@@ -42,12 +42,8 @@ const Contact = () => {
                 WhatsApp
               </h3>
               
-              <p className="text-gray-400 mb-6 group-hover:text-gray-300 transition-colors">
+              <p className="text-gray-400 mb-8 group-hover:text-gray-300 transition-colors">
                 Chat with us directly for instant support
-              </p>
-              
-              <p className="text-green-400 font-mono text-lg mb-6">
-                +961 76 935 901
               </p>
               
               <Button
@@ -72,12 +68,8 @@ const Contact = () => {
                 Email
               </h3>
               
-              <p className="text-gray-400 mb-6 group-hover:text-gray-300 transition-colors">
+              <p className="text-gray-400 mb-8 group-hover:text-gray-300 transition-colors">
                 Send us an email for detailed inquiries
-              </p>
-              
-              <p className="text-blue-400 font-mono text-lg mb-6 break-all">
-                ahmadkhrayzatt@gmail.com
               </p>
               
               <Button
